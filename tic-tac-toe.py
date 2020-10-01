@@ -30,7 +30,7 @@ def toggle(turn):
         return 'O'
     else:
         return 'X'
-    
+#display board
 def display_board():
     print " %s  | %s  | %s  " %(str(board[0]),str(board[1]),str(board[2]))
     print "____|____|____"
